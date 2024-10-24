@@ -1,0 +1,45 @@
+# R specific  
+.Rhistory  
+.RData  
+.Ruserdata  
+# RStudio specific  
+.Rproj.user/  
+.Rproj.user/*  
+*.Rproj  
+*.Rproj.user  
+# Temporary files  
+*.tmp  
+*.swp  
+*.lock  
+*.bak  
+*.backup  
+# Logs  
+*.log  
+# Compiled source  
+*.out  
+*.o  
+*.so  
+*.dll  
+# CSV output files  
+output/*.csv  
+output/*.xlsx  
+output/*.xls  
+output/*.tsv  
+# Backup and temp folders  
+backup/  
+backup/*   
+docs/  
+docs/*  
+# Shape files \(ignore all except the main .shp file\)  
+data/yem_admin_shapes/*.*  
+!data/yem_admin_shapes/*.shp  
+# Images and plots  
+output/*.png  
+output/*.jpeg  
+output/*.pdf  
+# Notebooks  
+*.Rmd  
+*.html  
+# Miscellaneous system files  
+.DS_Store  
+Thumbs.db 
