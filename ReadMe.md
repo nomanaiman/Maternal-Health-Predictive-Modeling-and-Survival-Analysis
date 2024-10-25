@@ -42,12 +42,12 @@ cd Maternal-Health-Predictive-Modeling-and-Survival-Analysis
 This project uses several R libraries for data analysis, modeling, and visualization. You can install all necessary packages by running the following command:
 
 ```R
-install.packages(c('cli', 'writexl', 'haven', 'tidyverse', 'scales', 'sysfonts', 'showtext', 
-                   'caret', 'pROC', 'ResourceSelection', 'survey', 'car', 'glmnet', 
-                   'smotefamily', 'randomForest', 'xgboost', 'corrplot', 'lme4', 'ROSE', 
-                   'themis', 'tidymodels', 'DescTools', 'descr', 'weights', 'sf', 'rpart', 
-                   'rpart.plot', 'xgboost', 'Matrix', 'lightgbm', 'survival', 'survminer', 
-                   'naniar', 'cmprsk', 'patchwork'))
+install.packages(c(
+  "writexl", "haven", "tidyverse", "scales", "sysfonts", "showtext", "caret",
+  "pROC", "survey", "randomForest", "smotefamily", "themis", "tidymodels", 
+  "sf", "survival", "survminer"
+))
+
 ```
 
 ### 3. Project Structure

@@ -1,20 +1,21 @@
 # Load necessary libraries
-library(writexl)
-library(haven)
-library(tidyverse)
-library(scales)              # For formatting y-axis with thousand separators
-library(sysfonts)
-library(showtext)
-library(caret)               # For confusion matrix and model evaluation
-library(pROC)                # For ROC curve and AUC calculation
-library(survey)
-library(randomForest)
-library(smotefamily)
-library(themis)              # For SMOTE (via tidymodels)
-library(tidymodels)          # For SMOTE (via tidymodels)
-library(sf)
-library(survival)
-library(survminer)
+library(tidyverse)          # Data wrangling and visualization
+library(survey)             # Complex survey analysis
+library(randomForest)       # Modeling
+library(caret)              # Model evaluation
+library(pROC)               # ROC curve and AUC calculation
+library(survival)           # Survival analysis
+library(sf)                 # Spatial data
+library(survminer)          # Survival plots
+library(writexl)            # Writing data to Excel
+library(haven)              # Reading .sav files
+library(smotefamily)        # SMOTE for handling imbalanced data
+library(themis)             # SMOTE (via tidymodels)
+library(tidymodels)         # For SMOTE (via tidymodels)
+library(scales)             # Formatting y-axis with thousand separators
+library(sysfonts)           # Custom fonts for plots
+library(showtext)           # Additional text rendering for plots
+
 
 
 # Set tidymodels preferences
