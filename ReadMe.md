@@ -43,9 +43,9 @@ This project uses several R libraries for data analysis, modeling, and visualiza
 
 ```R
 install.packages(c(
-  "writexl", "haven", "tidyverse", "scales", "sysfonts", "showtext", "caret",
-  "pROC", "survey", "randomForest", "smotefamily", "themis", "tidymodels", 
-  "sf", "survival", "survminer"
+  "tidyverse", "survey", "randomForest", "caret", "pROC", "survival", "sf", 
+  "survminer", "writexl", "haven", "smotefamily", "themis", "tidymodels", 
+  "scales", "sysfonts", "showtext"
 ))
 
 ```
