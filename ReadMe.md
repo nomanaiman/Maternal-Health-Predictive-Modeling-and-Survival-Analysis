@@ -54,7 +54,7 @@ install.packages(c('cli', 'writexl', 'haven', 'tidyverse', 'scales', 'sysfonts',
 ### 3. Project Structure
 
 ```
-MICS 2023 R/
+Maternal-Health-Predictive-Modeling-and-Survival-Analysis/
 │
 ├── data/
 │   ├── population.csv
