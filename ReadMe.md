@@ -1,6 +1,23 @@
 
 # Improving Health Outcomes in Yemen: A Quantitative Analysis Approach in A Challenging Context
 
+
+- [Improving Health Outcomes in Yemen: A Quantitative Analysis Approach in A Challenging Context](#improving-health-outcomes-in-yemen-a-quantitative-analysis-approach-in-a-challenging-context)
+  - [Abstract](#abstract)
+  - [Setup and Installation](#setup-and-installation)
+    - [1. Clone the Repository](#1-clone-the-repository)
+    - [2. Install Dependencies](#2-install-dependencies)
+    - [3. Project Structure](#3-project-structure)
+  - [Data Sources](#data-sources)
+  - [Analysis Overview](#analysis-overview)
+    - [1. Logistic Regression on Antenatal Care (ANC)](#1-logistic-regression-on-antenatal-care-anc)
+    - [2. Child Mortality and SBA Coverage by Governorate](#2-child-mortality-and-sba-coverage-by-governorate)
+    - [3. Survival Analysis](#3-survival-analysis)
+  - [How to Run the Analysis](#how-to-run-the-analysis)
+  - [Future Work](#future-work)
+  - [License](#license)
+
+
 ## Abstract
 
 Yemen is the poorest country in the Middle East and the ninth poorest in the world. Enduring a protracted conflict that is continuing for more than 9 years, Yemen’s health care system suffered immensely. This project uses quantitative data analysis to better understand crucial health outcomes in the unique context of Yemen. Drawing mainly on Yemen MICS 2023 data, this project attempts to identify and measure some of the key socio-economic, educational, and regional factors that affect health variables impacting child mortality, antenatal care, and skilled birth attendance rates.
@@ -15,8 +32,9 @@ Through data preprocessing, exploratory analysis, statistical and predictive mod
 To clone the repository to your local system, use:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/nomanaiman/Maternal-Health-Predictive-Modeling-and-Survival-Analysis.git
+cd Maternal-Health-Predictive-Modeling-and-Survival-Analysis
+
 ```
 
 ### 2. Install Dependencies
