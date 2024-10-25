@@ -8,6 +8,9 @@ export_with_labels <- function(dataframe, filepath = NULL) {
     filepath <- paste0("output/", dataframe_name, ".xlsx")
   }
   
+  # Ensure the directory exists, create if it doesn't
+  dir.create(dirname(filepath), showWarnings = FALSE, recursive = TRUE)
+  
   # Extract labels for each column, providing a default "" if a label is missing
   labels <- sapply(dataframe, function(x) ifelse(is.null(attr(x, "label")), "", attr(x, "label")))
   column_names <- names(dataframe)
@@ -28,6 +31,7 @@ export_with_labels <- function(dataframe, filepath = NULL) {
   # Return the filepath as a confirmation
   return(filepath)
 }
+
 
 
 # Vectorized function to convert CMC to "yyyy-mm"
